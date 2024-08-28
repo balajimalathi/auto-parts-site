@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cental - Car Rent Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar bg-secondary d-none d-xl-block w-100">
+        <div class="container">
+            <div class="row gx-0 align-items-center" style="height: 45px;">
+                <div class="col-lg-6 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <!-- <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a> -->
+                        <a href="tel:+1 (786) 550-5786" class="text-muted me-4"><i
+                                class="fas fa-phone-alt text-primary me-2"></i>+1 (786) 550-5786</a>
+                        <!-- <a href="mailto:example@gmail.com" class="text-muted me-0"><i
+                                class="fas fa-envelope text-primary me-2"></i>Example@gmail.com</a> -->
+                    </div>
+                </div>
+                <!-- <div class="col-lg-6 text-center text-lg-end">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <a href="#" class="btn btn-light btn-sm-square rounded-circle me-3"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-light btn-sm-square rounded-circle me-3"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-light btn-sm-square rounded-circle me-3"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-light btn-sm-square rounded-circle me-0"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid nav-bar sticky-top px-0 px-lg-4 py-2 py-lg-0">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="display-6 text-primary"><i class="fas fa-car-alt me-3"></i></i>Cental</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Service</a>
+                        <a href="blog.html" class="nav-item nav-link">Blog</a>
+
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="feature.html" class="dropdown-item">Our Feature</a>
+                                <a href="cars.html" class="dropdown-item">Our Cars</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="tel:+1 (786) 550-5786" class="btn btn-primary rounded-pill py-2 px-4">+1 (786) 550-5786</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Carousel Start -->
+    <div class="header-carousel">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="First slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="First slide" />
+                    <div class="carousel-caption">
+                        <div class="container py-4">
+                            <div class="row g-5">
+                                <div class="col-lg-6 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1s"
+                                    style="animation-delay: 1s;">
+                                    <div class="bg-secondary rounded p-5">
+                                        <h4 class="text-white mb-4">Find Your Car Parts Instantly</h4>
+                                        <form>
+                                            <div class="row g-3">
+                                                <div class="col-12">
+                                                    <select class="form-select" aria-label="Default select example">
+                                                        <option value="">Click here to Select Year</option>
+                                                        <option value="2023">2023</option>
+                                                        <option value="2022">2022</option>
+                                                        <option value="2021">2021</option>
+                                                        <option value="2020">2020</option>
+                                                        <option value="2019">2019</option>
+                                                        <option value="2018">2018</option>
+                                                        <option value="2017">2017</option>
+                                                        <option value="2016">2016</option>
+                                                        <option value="2015">2015</option>
+                                                        <option value="2014">2014</option>
+                                                        <option value="2013">2013</option>
+                                                        <option value="2012">2012</option>
+                                                        <option value="2011">2011</option>
+                                                        <option value="2010">2010</option>
+                                                        <option value="2009">2009</option>
+                                                        <option value="2008">2008</option>
+                                                        <option value="2007">2007</option>
+                                                        <option value="2006">2006</option>
+                                                        <option value="2005">2005</option>
+                                                        <option value="2004">2004</option>
+                                                        <option value="2003">2003</option>
+                                                        <option value="2002">2002</option>
+                                                        <option value="2001">2001</option>
+                                                        <option value="2000">2000</option>
+                                                        <option value="1999">1999</option>
+                                                        <option value="1998">1998</option>
+                                                        <option value="1997">1997</option>
+                                                        <option value="1996">1996</option>
+                                                        <option value="1995">1995</option>
+                                                        <option value="1994">1994</option>
+                                                        <option value="1993">1993</option>
+                                                        <option value="1992">1992</option>
+                                                        <option value="1991">1991</option>
+                                                        <option value="1990">1990</option>
+                                                        <option value="1989">1989</option>
+                                                        <option value="1988">1988</option>
+                                                        <option value="1987">1987</option>
+                                                        <option value="1986">1986</option>
+                                                        <option value="1985">1985</option>
+                                                        <option value="1984">1984</option>
+                                                        <option value="1983">1983</option>
+                                                        <option value="1982">1982</option>
+                                                        <option value="1981">1981</option>
+                                                        <option value="1980">1980</option>
+                                                        <option value="1979">1979</option>
+                                                        <option value="1978">1978</option>
+                                                        <option value="1977">1977</option>
+                                                        <option value="1976">1976</option>
+                                                        <option value="1975">1975</option>
+                                                        <option value="1974">1974</option>
+                                                        <option value="1973">1973</option>
+                                                        <option value="1972">1972</option>
+                                                        <option value="1971">1971</option>
+                                                        <option value="1970">1970</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-6">
+                                                    <select class="form-select" aria-label="Default select example">
+                                                        <option value="">-Make-</option>
+                                                        <option value="AMC">AMC</option>
+                                                        <option value="Acura">Acura</option>
+                                                        <option value="Alfa">Alfa</option>
+                                                        <option value="Aston Martin">Aston Martin</option>
+                                                        <option value="Asuna">Asuna</option>
+                                                        <option value="Audi">Audi</option>
+                                                        <option value="Austin">Austin</option>
+                                                        <option value="Autocar">Autocar</option>
+                                                        <option value="Avanti">Avanti</option>
+                                                        <option value="BMW">BMW</option>
+                                                        <option value="Bentley">Bentley</option>
+                                                        <option value="Bricklin">Bricklin</option>
+                                                        <option value="Brockway">Brockway</option>
+                                                        <option value="Buick">Buick</option>
+                                                        <option value="Cadillac">Cadillac</option>
+                                                        <option value="Checker">Checker</option>
+                                                        <option value="Chevy">Chevy</option>
+                                                        <option value="Chrysler">Chrysler</option>
+                                                        <option value="Citroen">Citroen</option>
+                                                        <option value="Daewoo">Daewoo</option>
+                                                        <option value="Daihatsu">Daihatsu</option>
+                                                        <option value="Delorean">Delorean</option>
+                                                        <option value="Desoto">Desoto</option>
+                                                        <option value="Diamond">Diamond</option>
+                                                        <option value="Dodge">Dodge</option>
+                                                        <option value="Eagle">Eagle</option>
+                                                        <option value="Ferrari">Ferrari</option>
+                                                        <option value="Fiat">Fiat</option>
+                                                        <option value="Fisker">Fisker</option>
+                                                        <option value="Ford">Ford</option>
+                                                        <option value="GMC">GMC</option>
+                                                        <option value="Genesis">Genesis</option>
+                                                        <option value="Geo">Geo</option>
+                                                        <option value="Honda">Honda</option>
+                                                        <option value="Hummer">Hummer</option>
+                                                        <option value="Hyundai">Hyundai</option>
+                                                        <option value="Infiniti">Infiniti</option>
+                                                        <option value="Isuzu">Isuzu</option>
+                                                        <option value="Jaguar">Jaguar</option>
+                                                        <option value="Jeep">Jeep</option>
+                                                        <option value="Kia">Kia</option>
+                                                        <option value="Lamborghini">Lamborghini</option>
+                                                        <option value="LandRover">LandRover</option>
+                                                        <option value="Lexus">Lexus</option>
+                                                        <option value="Lincoln">Lincoln</option>
+                                                        <option value="Lotus">Lotus</option>
+                                                        <option value="Maserati">Maserati</option>
+                                                        <option value="Maybach">Maybach</option>
+                                                        <option value="Mazda">Mazda</option>
+                                                        <option value="Mercedes">Mercedes</option>
+                                                        <option value="Mercury">Mercury</option>
+                                                        <option value="Mini">Mini</option>
+                                                        <option value="Mitsubishi">Mitsubishi</option>
+                                                        <option value="Nissan">Nissan</option>
+                                                        <option value="Oldsmobile">Oldsmobile</option>
+                                                        <option value="Peugeot">Peugeot</option>
+                                                        <option value="Plymouth">Plymouth</option>
+                                                        <option value="Pontiac">Pontiac</option>
+                                                        <option value="Porsche">Porsche</option>
+                                                        <option value="Ram">Ram</option>
+                                                        <option value="Renault">Renault</option>
+                                                        <option value="RollsRoyce">RollsRoyce</option>
+                                                        <option value="Rover">Rover</option>
+                                                        <option value="Saab">Saab</option>
+                                                        <option value="Saturn">Saturn</option>
+                                                        <option value="Scion">Scion</option>
+                                                        <option value="Subaru">Subaru</option>
+                                                        <option value="Suzuki">Suzuki</option>
+                                                        <option value="Tesla">Tesla</option>
+                                                        <option value="Toyota">Toyota</option>
+                                                        <option value="Triumph">Triumph</option>
+                                                        <option value="Volkswagen">Volkswagen</option>
+                                                        <option value="Volvo">Volvo</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-6">
+                                                    <select class="form-select" aria-label="Default select example">
+                                                        <option value="">-Make-</option>
+                                                        <option>Engine</option>
+                                                        <option>Transmission</option>
+                                                        <option>ABS Module</option>
+                                                        <option>ABS Pump</option>
+                                                        <option>Airbag</option>
+                                                        <option>Steering Column</option>
+                                                        <option>Instrument Cluster</option>
+                                                        <option>Front Drive Shaft</option>
+                                                        <option>Rear Drive Shaft</option>
+                                                        <option>Transfer Case</option>
+                                                        <option>Cylinder Head</option>
+                                                        <option>Axle Shaft</option>
+                                                        <option>Struts</option>
+                                                        <option>Side Mirror</option>
+                                                        <option>Front Differential</option>
+                                                        <option>Rear Differential</option>
+                                                        <option>Rear Axle Assembly (Rear End)</option>
+                                                        <option>Front Axle Assembly</option>
+                                                        <option>Shifter Assembly</option>
+                                                        <option>Paddle Shifter</option>
+                                                        <option>Turbo</option>
+                                                        <option>Supercharger</option>
+                                                        <option>Climate Control Module</option>
+                                                        <option>A/C Heater Control</option>
+                                                        <option>HVAC Control</option>
+                                                        <option>Tail Light</option>
+                                                        <option>ABS Assembly</option>
+                                                        <option>ABS Control Module</option>
+                                                        <option>Headlight</option>
+                                                        <option>Others</option>
+                                                        <option>A/C Compressor</option>
+                                                        <option>A/C Compressor Clutch Only</option>
+                                                        <option>A/C Condenser</option>
+                                                        <option>A/C Condenser Fan</option>
+                                                        <option>A/C Control Computer</option>
+                                                        <option>A/C Evaporator</option>
+                                                        <option>A/C Evaporator Housing only</option>
+                                                        <option>A/C Heater Control (see also Radio or TV Screen)
+                                                        </option>
+                                                        <option>A/C Hose</option>
+                                                        <option>Adaptive Cruise Projector</option>
+                                                        <option>Air Bag</option>
+                                                        <option>Air Bag Clockspring</option>
+                                                        <option>Air Bag Ctrl Module</option>
+                                                        <option>Air Box/Air Cleaner</option>
+                                                        <option>Air Cond./Heater Vents</option>
+                                                        <option>Air Flow Meter</option>
+                                                        <option>Air Pump</option>
+                                                        <option>Air Ride Compressor</option>
+                                                        <option>Air Shutter</option>
+                                                        <option>Air Tube/Resonator</option>
+                                                        <option>Alternator</option>
+                                                        <option>Amplifier/Radio</option>
+                                                        <option>Antenna</option>
+                                                        <option>Anti-Lock Brake Computer</option>
+                                                        <option>Anti-Lock Brake Pump</option>
+                                                        <option>Audiovisual (A/V) (see also TV Screen)</option>
+                                                        <option>Automatic Headlight Dimmer</option>
+                                                        <option>Axle Assy Fr (4WD w. Housing)</option>
+                                                        <option>Axle Assy Rear (w. Housing)</option>
+                                                        <option>Axle Beam Front (2WD, incl I Beam Susp)</option>
+                                                        <option>Axle Beam Rear (FWD)</option>
+                                                        <option>Axle Flange</option>
+                                                        <option>Axle Housing Only</option>
+                                                        <option>Axle Shaft</option>
+                                                        <option>Back Glass Regulator</option>
+                                                        <option>Back Glass Shock</option>
+                                                        <option>Backing Plate, Front</option>
+                                                        <option>Backing Plate, Rear</option>
+                                                        <option>Backup Camera</option>
+                                                        <option>Backup Light</option>
+                                                        <option>Battery Tray</option>
+                                                        <option>Bell Housing</option>
+                                                        <option>Belt Tensioner</option>
+                                                        <option>Blind Spot Camera</option>
+                                                        <option>Blower Motor</option>
+                                                        <option>Body Wiring Harness</option>
+                                                        <option>Brake/Clutch Pedal</option>
+                                                        <option>Brake Booster</option>
+                                                        <option>Brake Proportioning Valve</option>
+                                                        <option>Brake Rotor/Drum, Front</option>
+                                                        <option>Brake Rotor/Drum, Rear</option>
+                                                        <option>Bug Screen</option>
+                                                        <option>Bumper Assy (Front) includes cover</option>
+                                                        <option>Bumper Assy (Rear) includes cover</option>
+                                                        <option>Bumper Cover (Front)</option>
+                                                        <option>Bumper Cover (Rear)</option>
+                                                        <option>Bumper End Cap</option>
+                                                        <option>Bumper Energy Absorber (Front)</option>
+                                                        <option>Bumper Energy Absorber (Rear)</option>
+                                                        <option>Bumper Face Bar (Front)</option>
+                                                        <option>Bumper Face Bar (Rear)</option>
+                                                        <option>Bumper Filler Panel</option>
+                                                        <option>Bumper Step Pad</option>
+                                                        <option>Cabin Air Filter</option>
+                                                        <option>Cabin Fuse Box</option>
+                                                        <option>Caliper</option>
+                                                        <option>Camera Projector</option>
+                                                        <option>Camshaft Housing</option>
+                                                        <option>Carburetor (see also Throttle Body)</option>
+                                                        <option>Cargo Lamp</option>
+                                                        <option>Carrier (see also Differential)</option>
+                                                        <option>Carrier Case</option>
+                                                        <option>CD Player/Radio</option>
+                                                        <option>Center Cap (Wheel)</option>
+                                                        <option>Chassis Control Computer (not Engine)</option>
+                                                        <option>Clock</option>
+                                                        <option>Clockspring (Air Bag)</option>
+                                                        <option>Clutch Disc</option>
+                                                        <option>Clutch Fork</option>
+                                                        <option>Clutch Master Cylinder</option>
+                                                        <option>Coil/Air Spring</option>
+                                                        <option>Coil/Igniter</option>
+                                                        <option>Column Switch</option>
+                                                        <option>Computer Box Engine</option>
+                                                        <option>Computer Box Not Engine</option>
+                                                        <option>Condenser</option>
+                                                        <option>Condenser/Radiator mtd. Cooling Fan</option>
+                                                        <option>Connecting Rod, Engine</option>
+                                                        <option>Console, Front</option>
+                                                        <option>Console, Rear</option>
+                                                        <option>Control Arm, Front Lower</option>
+                                                        <option>Control Arm, Front Upper</option>
+                                                        <option>Control Arm, Rear Lower</option>
+                                                        <option>Control Arm, Rear Upper</option>
+                                                        <option>Convertible Top</option>
+                                                        <option>Convertible Top Boot</option>
+                                                        <option>Convertible Top Lift</option>
+                                                        <option>Convertible Top Motor</option>
+                                                        <option>Coolant Pump</option>
+                                                        <option>Cooling Fan (Rad and Con mtd.)</option>
+                                                        <option>Core (Radiator) Support</option>
+                                                        <option>Cowl</option>
+                                                        <option>Cowl Vent Panel</option>
+                                                        <option>Crank Pulley (Harmonic Balancer)</option>
+                                                        <option>Cruise Control Computer</option>
+                                                        <option>Cruise Speed Controler</option>
+                                                        <option>Cylinder Head (Engine)</option>
+                                                        <option>Dash/Interior/Seat Switch</option>
+                                                        <option>Dash Bezel (see also Instrument or Radio Bezel)</option>
+                                                        <option>Dash Wiring Harness</option>
+                                                        <option>Deck Lid Assembly</option>
+                                                        <option>Deck Lid/Trunk Lid Shell</option>
+                                                        <option>Differential Assembly (see also Carrier)</option>
+                                                        <option>Differential Case Only</option>
+                                                        <option>Differential Flange Only</option>
+                                                        <option>Distributor</option>
+                                                        <option>Door Mirror Cover</option>
+                                                        <option>Door Window Crank Handle</option>
+                                                        <option>Drag Link</option>
+                                                        <option>Drive-By-Wire</option>
+                                                        <option>Drive Shaft, Front</option>
+                                                        <option>Drive Shaft, Rear</option>
+                                                        <option>Driving Lamp Bezel</option>
+                                                        <option>EGR Valve</option>
+                                                        <option>Electric Door Motor (not Window)</option>
+                                                        <option>Electric Window Motor</option>
+                                                        <option>Electronic Transmission Shifter</option>
+                                                        <option>Emblem</option>
+                                                        <option>Emergency Brake</option>
+                                                        <option>Engine</option>
+                                                        <option>Engine Block</option>
+                                                        <option>Engine Computer</option>
+                                                        <option>Engine Core</option>
+                                                        <option>Engine Cover</option>
+                                                        <option>Engine Cradle</option>
+                                                        <option>Engine Cylinder Head</option>
+                                                        <option>Engine Fuse Box</option>
+                                                        <option>Engine Oil Pan</option>
+                                                        <option>Engine Wiring Harness</option>
+                                                        <option>Exhaust Assembly</option>
+                                                        <option>Exhaust Cross Pipe</option>
+                                                        <option>Exhaust Fluid Pump</option>
+                                                        <option>Exhaust Fluid Tank</option>
+                                                        <option>Exhaust Heat Shield</option>
+                                                        <option>Exhaust Lead Pipe</option>
+                                                        <option>Exhaust Manifold</option>
+                                                        <option>Exhaust Muffler</option>
+                                                        <option>Exhaust Pipe</option>
+                                                        <option>Exhaust Resonator</option>
+                                                        <option>Exhaust Tail Pipe</option>
+                                                        <option>Fan Blade</option>
+                                                        <option>Fan Clutch</option>
+                                                        <option>Flex Plate</option>
+                                                        <option>Floor Shift Assembly</option>
+                                                        <option>Flywheel</option>
+                                                        <option>Fog Lamp</option>
+                                                        <option>Fog Lamp Bezel</option>
+                                                        <option>Fog Lamp Rear</option>
+                                                        <option>Fog Lamp Switch</option>
+                                                        <option>Frame</option>
+                                                        <option>Frame Front Section Only</option>
+                                                        <option>Frame Horn</option>
+                                                        <option>Frame Upper &amp; Lower Rails</option>
+                                                        <option>Front Axle Assembly (4WD w Housing)</option>
+                                                        <option>Front Axle Beam (2WD, incl I Beam Susp)</option>
+                                                        <option>Front Axle Shaft</option>
+                                                        <option>Front Door Mirror</option>
+                                                        <option>Front Door Mirror Glass</option>
+                                                        <option>Front Door Regulator</option>
+                                                        <option>Front Door Switch</option>
+                                                        <option>Front Door Vent Glass Regulator</option>
+                                                        <option>Front Door Window Motor</option>
+                                                        <option>Front Drive Shaft</option>
+                                                        <option>Front End Assembly (Nose)</option>
+                                                        <option>Front Seat Belt Assembly</option>
+                                                        <option>Front Valance</option>
+                                                        <option>Front Window Regulator</option>
+                                                        <option>Fuel Cap</option>
+                                                        <option>Fuel Cooler</option>
+                                                        <option>Fuel Distributor (&amp; Misc. Injection)</option>
+                                                        <option>Fuel Filler Door</option>
+                                                        <option>Fuel Filler Neck</option>
+                                                        <option>Fuel Gauge</option>
+                                                        <option>Fuel Injector (&amp; Misc. Injection)</option>
+                                                        <option>Fuel Injector Pump</option>
+                                                        <option>Fuel Pump</option>
+                                                        <option>Fuel Rail (&amp; Misc. Injection)</option>
+                                                        <option>Fuel Tank</option>
+                                                        <option>Fuel Tank Sending Unit</option>
+                                                        <option>Fuse Box (Cabin)</option>
+                                                        <option>Fuse Box (Engine)</option>
+                                                        <option>Gas Cap</option>
+                                                        <option>Gas Tank</option>
+                                                        <option>Gate Window Regulator</option>
+                                                        <option>Gauge (Misc)</option>
+                                                        <option>Generator</option>
+                                                        <option>Glass, Special (see also Sunroof/TTop)</option>
+                                                        <option>Glove Box</option>
+                                                        <option>GPS Screen (see also Radio or Heater/AC Control)
+                                                        </option>
+                                                        <option>Grille</option>
+                                                        <option>Grille Moulding</option>
+                                                        <option>Grille Surround</option>
+                                                        <option>Harmonic Balancer (Crank Pulley)</option>
+                                                        <option>Head (Cylinder)</option>
+                                                        <option>Header Panel</option>
+                                                        <option>Headlight Assembly</option>
+                                                        <option>Headlight Cover (Plastic)</option>
+                                                        <option>Headlight Door</option>
+                                                        <option>Headlight Housing</option>
+                                                        <option>Headlight Igniter</option>
+                                                        <option>Headlight Lens</option>
+                                                        <option>Headlight Motor</option>
+                                                        <option>Headlight Switch (Column Mounted)</option>
+                                                        <option>Headlight Switch (Dash Mounted)</option>
+                                                        <option>Headlight Switch (see also Column Switch)</option>
+                                                        <option>Headlight Washer Motor Only</option>
+                                                        <option>Headlight Wiper Motor Only</option>
+                                                        <option>Headrest</option>
+                                                        <option>Heads Up Display</option>
+                                                        <option>Heater Assy</option>
+                                                        <option>Heater Core</option>
+                                                        <option>Heater Motor</option>
+                                                        <option>Heater/AC Control (see also Radio or TV Screen)</option>
+                                                        <option>Hood Deflector</option>
+                                                        <option>Hood Latch</option>
+                                                        <option>Hood Ornament</option>
+                                                        <option>Hood Prop</option>
+                                                        <option>Hood Scoop</option>
+                                                        <option>Hood Shock</option>
+                                                        <option>Horn</option>
+                                                        <option>Hub</option>
+                                                        <option>Hub Cap/Wheel Cover (display w image)</option>
+                                                        <option>Hub Cap/Wheel Cover (display w/o image)</option>
+                                                        <option>Hub, Lockout (4WD)</option>
+                                                        <option>Ignition Module (see also Ignitor/Coil)</option>
+                                                        <option>Ignition Switch</option>
+                                                        <option>Ignitor/Coil</option>
+                                                        <option>Info Screen (see also Radio or Heater/AC Control)
+                                                        </option>
+                                                        <option>Inside Door Handle</option>
+                                                        <option>Instrument Cluster (see also Speedo)</option>
+                                                        <option>Instrument Cluster Bezel</option>
+                                                        <option>Intake Manifold</option>
+                                                        <option>Intercooler</option>
+                                                        <option>Interior Light</option>
+                                                        <option>Inverter Cooler</option>
+                                                        <option>Jack Assembly</option>
+                                                        <option>Keys/Latches and Locks</option>
+                                                        <option>Key Remote/Fob</option>
+                                                        <option>Knee Assembly (see also Strut Assy)</option>
+                                                        <option>Latch, Front Door</option>
+                                                        <option>Latch, Rear Door</option>
+                                                        <option>Latch, Back Door</option>
+                                                        <option>Latches</option>
+                                                        <option>Leaf Spring, Front</option>
+                                                        <option>Leaf Spring, Rear</option>
+                                                        <option>License Lamp</option>
+                                                        <option>License Plate Bracket</option>
+                                                        <option>Lock Actuator</option>
+                                                        <option>Lockout Hub, 4X4</option>
+                                                        <option>Locks</option>
+                                                        <option>Luggage Rack</option>
+                                                        <option>Marker/Fog Light, Front</option>
+                                                        <option>Marker/Side Light, Rear</option>
+                                                        <option>Master Cylinder</option>
+                                                        <option>Mirror, Door</option>
+                                                        <option>Mirror, Rear View</option>
+                                                        <option>Neutral Safety Switch</option>
+                                                        <option>Night Vision Camera</option>
+                                                        <option>Oil Cooler</option>
+                                                        <option>Oil Filter Adapter</option>
+                                                        <option>Oil Pan, Engine</option>
+                                                        <option>Oil Pan, Transmission</option>
+                                                        <option>Oil Pump, Engine</option>
+                                                        <option>Outside Door Handle</option>
+                                                        <option>Overdrive Unit (see also Transmission)</option>
+                                                        <option>Paddle Shifter</option>
+                                                        <option>Park/Fog Lamp Front</option>
+                                                        <option>Parcel Shelf</option>
+                                                        <option>Park Lamp Rear (Side)</option>
+                                                        <option>Parking Assist Camera</option>
+                                                        <option>Power Brake Booster</option>
+                                                        <option>Power Steering Assy</option>
+                                                        <option>Power Steering Cooler</option>
+                                                        <option>Power Steering Motor</option>
+                                                        <option>Power Steering Pressure Cyl</option>
+                                                        <option>Power Steering Pump</option>
+                                                        <option>Power Steering Rack/Box/Gear</option>
+                                                        <option>Power Steering Reservoir</option>
+                                                        <option>Push Rod (Engine)</option>
+                                                        <option>Quarter Window Motor</option>
+                                                        <option>Quarter Window Regulator</option>
+                                                        <option>Rack &amp; Pinion (Steering)</option>
+                                                        <option>Radiator</option>
+                                                        <option>Radiator/Condenser mtd. Cooling Fan</option>
+                                                        <option>Radiator Air Shutter</option>
+                                                        <option>Radiator Core Support</option>
+                                                        <option>Radiator Cover Baffle</option>
+                                                        <option>Radiator Fan Shroud</option>
+                                                        <option>Radiator Overflow Bottle</option>
+                                                        <option>Radio/CD (see also A/C Control or TV Screen)</option>
+                                                        <option>Radio Bezel Trim</option>
+                                                        <option>Radio Face Plate</option>
+                                                        <option>Radius Arm, Front</option>
+                                                        <option>Rag Joint (see also Steering Coupler)</option>
+                                                        <option>Rear Axle Assy (RWD)</option>
+                                                        <option>Rear Axle Beam (FWD)</option>
+                                                        <option>Rear Clip</option>
+                                                        <option>Rear Console</option>
+                                                        <option>Rear Crossmember</option>
+                                                        <option>Rear Door Handle, Inside</option>
+                                                        <option>Rear Door Handle, Outside</option>
+                                                        <option>Rear Door Regulator</option>
+                                                        <option>Rear Door Switch</option>
+                                                        <option>Rear Door Vent Glass regulator</option>
+                                                        <option>Rear Door Window Motor</option>
+                                                        <option>Rear Door Window Regulator</option>
+                                                        <option>Rear Drive Shaft</option>
+                                                        <option>Rear Finish Panel</option>
+                                                        <option>Rear Gate Window Motor</option>
+                                                        <option>Rear Knuckle/Stub Axle</option>
+                                                        <option>Rear Lower Valance</option>
+                                                        <option>Rear Seat Belt Assembly</option>
+                                                        <option>Rear Suspension (see also Control Arms)</option>
+                                                        <option>Rear Suspension Locating Arm</option>
+                                                        <option>Rear Suspension Trailing Arm</option>
+                                                        <option>Rear Window Defogger</option>
+                                                        <option>Rear Window Washer Motor</option>
+                                                        <option>Receiver Dryer</option>
+                                                        <option>Ring and Pinion Only</option>
+                                                        <option>Roll Bar</option>
+                                                        <option>Roll Bar Padding</option>
+                                                        <option>Roof</option>
+                                                        <option>Roof Glass Frame/Track</option>
+                                                        <option>Roof Panel (see also Sunroof)</option>
+                                                        <option>Roof Rack</option>
+                                                        <option>Running Boards</option>
+                                                        <option>Running Board Motor</option>
+                                                        <option>Seat Belt, Front</option>
+                                                        <option>Seat Belt, Rear</option>
+                                                        <option>Seat Belt Motor</option>
+                                                        <option>Seat Belt Pretensioner</option>
+                                                        <option>Seat Belt Track (Electric)</option>
+                                                        <option>Seat Motor</option>
+                                                        <option>Seat Switch</option>
+                                                        <option>Seat Track, Front Only</option>
+                                                        <option>Shifter Assembly (Floor)</option>
+                                                        <option>Shock Absorber</option>
+                                                        <option>Slave Cylinder</option>
+                                                        <option>Smog Pump</option>
+                                                        <option>Spare Tire Carrier</option>
+                                                        <option>Spare Tire Cover</option>
+                                                        <option>Spare Tire Hoist</option>
+                                                        <option>Special Glass</option>
+                                                        <option>Speedometer (see also Instr. Cluster)</option>
+                                                        <option>Spindle</option>
+                                                        <option>Spoiler, Front</option>
+                                                        <option>Spoiler, Rear</option>
+                                                        <option>Spring Hanger</option>
+                                                        <option>Stabilizer Bar Only</option>
+                                                        <option>Starter</option>
+                                                        <option>Steering Column</option>
+                                                        <option>Steering Column Shaft</option>
+                                                        <option>Steering Knuckle (see also Knee &amp; Strut)</option>
+                                                        <option>Steering Pump</option>
+                                                        <option>Steering Rack/Box/Gear</option>
+                                                        <option>Steering Wheel</option>
+                                                        <option>Strut (see also Knee Assy)</option>
+                                                        <option>Strut Tower Brace</option>
+                                                        <option>Sun Roof / T-Top</option>
+                                                        <option>Sun Roof Motor</option>
+                                                        <option>Supercharger/Turbocharger</option>
+                                                        <option>Tachometer</option>
+                                                        <option>Tail Light</option>
+                                                        <option>Tailgate Hinge</option>
+                                                        <option>Tailgate Lift Motor</option>
+                                                        <option>Tailgate Window Regulator</option>
+                                                        <option>Thermostat Housing</option>
+                                                        <option>Third Brake Light</option>
+                                                        <option>Throttle Body/Throttle Valve Housing</option>
+                                                        <option>Timing Belt/Chain</option>
+                                                        <option>Timing Cover</option>
+                                                        <option>Torque Convertor</option>
+                                                        <option>Tow Hook</option>
+                                                        <option>Track/Watts Linkage</option>
+                                                        <option>Trailer Brake Controller</option>
+                                                        <option>Trailer Hitch</option>
+                                                        <option>Trans OD Unit (see also Transmission)</option>
+                                                        <option>Transaxle Housing Only</option>
+                                                        <option>Transfer Case</option>
+                                                        <option>Transfer Case Adapter</option>
+                                                        <option>Transfer Case Core</option>
+                                                        <option>Transfer Case Electric Motor</option>
+                                                        <option>Transfer Case Switch</option>
+                                                        <option>Transmission</option>
+                                                        <option>Transmission Bellhousing Only</option>
+                                                        <option>Transmission Clutch Actuator</option>
+                                                        <option>Transmission Computer</option>
+                                                        <option>Transmission Core</option>
+                                                        <option>Transmission Crossmember</option>
+                                                        <option>Transmission Pan</option>
+                                                        <option>Transmission Torque Converter</option>
+                                                        <option>Transmission Wiring Harness</option>
+                                                        <option>Trunk Lid Pull Down Motor</option>
+                                                        <option>Trunk Lid/Hatch</option>
+                                                        <option>Trunk Lid/Hatch Hinge</option>
+                                                        <option>Trunk Lid/Hatch Shock</option>
+                                                        <option>Trunk Lid/Tailgate Moulding</option>
+                                                        <option>TTop/Sunroof</option>
+                                                        <option>Turbo/Supercharger Core</option>
+                                                        <option>Turbocharger/Supercharger</option>
+                                                        <option>Turn Signal/Fog Lamp</option>
+                                                        <option>TV Screen (see also Radio or Heater/AC Control)</option>
+                                                        <option>Vacuum Pump</option>
+                                                        <option>Vacuum Storage Tank</option>
+                                                        <option>Valance, Front</option>
+                                                        <option>Valance, Rear</option>
+                                                        <option>Valve Cover</option>
+                                                        <option>Vapor Canister</option>
+                                                        <option>Washer Nozzle</option>
+                                                        <option>Water Pump</option>
+                                                        <option>Water Separator</option>
+                                                        <option>Wheel (display w image)</option>
+                                                        <option>Wheel (display w/o image)</option>
+                                                        <option>Wheel Bearing</option>
+                                                        <option>Wheel Cover/Hubcap (display w image)</option>
+                                                        <option>Wheel Cover/Hubcap (display w/o image)</option>
+                                                        <option>Wheel Lug Nut</option>
+                                                        <option>Wheel Opening Moulding</option>
+                                                        <option>Wheelchair Lift</option>
+                                                        <option>Wheelchair Ramp</option>
+                                                        <option>Wheelhouse (Rear)</option>
+                                                        <option>Winch</option>
+                                                        <option>Window Motor</option>
+                                                        <option>Window Regulator (Front)</option>
+                                                        <option>Window Regulator (Rear)</option>
+                                                        <option>Window Shade</option>
+                                                        <option>Window Switch (Front Door)</option>
+                                                        <option>Window Switch (Rear Door)</option>
+                                                        <option>Window Washer Motor, Rear</option>
+                                                        <option>Windshield Washer Motor (Front)</option>
+                                                        <option>Windshield Washer Reservoir</option>
+                                                        <option>Wiper Arm</option>
+                                                        <option>Wiper Linkage</option>
+                                                        <option>Wiper Motor, Front (Windshield)</option>
+                                                        <option>Wiper Motor, Rear</option>
+                                                        <option>Wiring Harness (Body)</option>
+                                                        <option>Wiring Harness (Dash)</option>
+                                                        <option>Wiring Harness (Engine)</option>
+                                                        <option>Wiring Harness (Transmission)</option>
+                                                        <option>Yoke/U-Joint</option>
+                                                        <option>Timing Gears</option>
+                                                        <option>Back Door (above rear bumper)</option>
+                                                        <option>Back Door Handle, Inside</option>
+                                                        <option>Back Door Handle, Outside</option>
+                                                        <option>Back Door Shell</option>
+                                                        <option>Back Door Trim Panel</option>
+                                                        <option>Deck Lid Assembly</option>
+                                                        <option>Deck Lid/Trunk Lid Shell</option>
+                                                        <option>Door Rear (side of vehicle)</option>
+                                                        <option>Door Shell, Back</option>
+                                                        <option>Door Shell, Front</option>
+                                                        <option>Door Shell, Rear</option>
+                                                        <option>Fender</option>
+                                                        <option>Front Door Shell</option>
+                                                        <option>Front Door Trim Panel</option>
+                                                        <option>Gate/Lid</option>
+                                                        <option>Hatch/Trunk Lid</option>
+                                                        <option>Hood</option>
+                                                        <option>Interior Trim Panel, Door (Back)</option>
+                                                        <option>Interior Trim Panel, Door (Front)</option>
+                                                        <option>Interior Trim Panel, Door (Rear)</option>
+                                                        <option>Lid/Gate</option>
+                                                        <option>Liftgate Assembly</option>
+                                                        <option>Liftgate Shell</option>
+                                                        <option>Quarter Panel</option>
+                                                        <option>Quarter Window</option>
+                                                        <option>Rear Door (side of vehicle)</option>
+                                                        <option>Rear Door Shell</option>
+                                                        <option>Rear Door Trim Panel</option>
+                                                        <option>Rear Gate/Lid</option>
+                                                        <option>Seat, Back (3rd Row)</option>
+                                                        <option>Seat, Back (4th Row)</option>
+                                                        <option>Seat, Back (5th Row)</option>
+                                                        <option>Seat, Front</option>
+                                                        <option>Seat, Rear (2nd Row)</option>
+                                                        <option>Tailgate/Trunk Lid</option>
+                                                        <option>Tailgate Shell</option>
+                                                        <option>Door Back (door above rear bumper)</option>
+                                                        <option>Door Front</option>
+                                                        <option>Door Handle, Inside</option>
+                                                        <option>Door Handle, Outside</option>
+                                                        <option>Front Bumper Assembly (includes cover)</option>
+                                                        <option>Front Bumper Cover</option>
+                                                        <option>Front Console</option>
+                                                        <option>Front Door</option>
+                                                        <option>Front Door Handle, Inside</option>
+                                                        <option>Front Door Handle, Outside</option>
+                                                        <option>Rear Bumper Assembly (includes cover)</option>
+                                                        <option>Rear Bumper Cover</option>
+                                                    </select>
+                                                </div>
+                                                 
+                                                <div class="col-12">
+                                                    <div class="input-group"> 
+                                                        <input class="form-control" placeholder="Enter Name" type="text"> 
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="input-group"> 
+                                                        <input class="form-control" placeholder="Enter Phone Number" type="text"> 
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="input-group"> 
+                                                        <input class="form-control" placeholder="Enter Mail" type="text"> 
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="input-group"> 
+                                                        <input class="form-control" placeholder="Enter Zip" type="text"> 
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button class="btn btn-light w-100 py-2">Submit </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 d-none d-lg-flex fadeInRight animated" data-animation="fadeInRight"
+                                    data-delay="1s" style="animation-delay: 1s;">
+                                    <div class="text-start">
+                                        <h1 class="display-5 text-white">Let's find the Perfect Engine, Transmission for your car</h1> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Features Start -->
+    <div class="container-fluid feature py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h1 class="display-5 text-capitalize mb-3">Buy <span class="text-primary">Top Quality Auto Parts Online</span> Your Trusted Source</h1>
+ 
+
+                <!-- <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet nemo expedita
+                    asperiores commodi accusantium at cum harum, excepturi, quia tempora cupiditate! Adipisci facilis
+                    modi quisquam quia distinctio,
+                </p> -->
+            </div>
+            <div class="row g-4 align-items-center">
+                <div class="col-xl-4">
+                    <div class="row gy-4 gx-0">
+                        <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <span class="fa fa-trophy fa-2x"></span>
+                                </div>
+                                <div class="ms-4">
+                                    <h5 class="mb-3">EXCITING DEALS</h5>
+                                    <p class="mb-0">We offer massive discounts on our wide range of Used Car Parts
+                                        inventory every now and then. If you need help with any of your needs, we're
+                                        always happy to help. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <span class="fa fa-road fa-2x"></span>
+                                </div>
+                                <div class="ms-4">
+                                    <h5 class="mb-3">DELIVERY SERVICE</h5>
+                                    <p class="mb-0">Our commitment to our customers is to deliver the parts on time or
+                                        prior. We take pride in the fact that we have a very high success rate with our
+                                        deliveries.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <img src="img/features-img.png" class="img-fluid w-100" style="object-fit: cover;" alt="Img">
+                </div>
+                <div class="col-xl-4">
+                    <div class="row gy-4 gx-0">
+                        <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="feature-item justify-content-end">
+                                <div class="text-end me-4">
+                                    <h5 class="mb-3">STAY CURRENT</h5>
+                                    <p class="mb-0">With the help of our blogs and postings, stay current on the most
+                                        recent news, expert opinions, and events.</p>
+                                </div>
+                                <div class="feature-icon">
+                                    <span class="fa fa-tag fa-2x"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="feature-item justify-content-end">
+                                <div class="text-end me-4">
+                                    <h5 class="mb-3">TESTED QUALITY</h5>
+                                    <p class="mb-0">We are proud to offer a 100% satisfaction guarantee on all of our
+                                        used parts. We sell the parts which have been tested and inspected to ensure
+                                        that they meet our high standards.</p>
+                                </div>
+                                <div class="feature-icon">
+                                    <span class="fa fa-map-pin fa-2x"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+    <!-- About Start -->
+ 
+    <!-- About End -->
+
+    <!-- Fact Counter -->
+    <div class="container-fluid counter bg-secondary py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="counter-item text-center">
+                        <div class="counter-item-icon mx-auto">
+                            <i class="fas fa-thumbs-up fa-2x"></i>
+                        </div>
+                        <div class="counter-counting my-3">
+                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">35,000</span>
+                            <span class="h1 fw-bold text-white">+</span>
+                        </div>
+                        <h4 class="text-white mb-0">Happy Clients</h4>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="counter-item text-center">
+                        <div class="counter-item-icon mx-auto">
+                            <i class="fas fa-car-alt fa-2x"></i>
+                        </div>
+                        <div class="counter-counting my-3">
+                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">35,000+</span>
+                            <span class="h1 fw-bold text-white">+</span>
+                        </div>
+                        <h4 class="text-white mb-0">Number of Cars</h4>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="counter-item text-center">
+                        <div class="counter-item-icon mx-auto">
+                            <i class="fas fa-building fa-2x"></i>
+                        </div>
+                        <div class="counter-counting my-3">
+                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">1247</span>
+                            <span class="h1 fw-bold text-white">+</span>
+                        </div>
+                        <h4 class="text-white mb-0">Quotes</h4>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="counter-item text-center">
+                        <div class="counter-item-icon mx-auto">
+                            <i class="fas fa-clock fa-2x"></i>
+                        </div>
+                        <div class="counter-counting my-3">
+                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">589</span>
+                            <span class="h1 fw-bold text-white">+</span>
+                        </div>
+                        <h4 class="text-white mb-0">Total parts</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fact Counter -->
+
+    <!-- Services Start -->
+    <div class="container-fluid service py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h1 class="display-5 text-capitalize mb-3">Cental <span class="text-primary">Services</span></h1> 
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item p-4">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-phone-alt fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">Phone Reservation</h5>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam
+                            quasi quibusdam ipsa perferendis iusto?</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-money-bill-alt fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">Special Rates</h5>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam
+                            quasi quibusdam ipsa perferendis iusto?</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-road fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">One Way Rental</h5>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam
+                            quasi quibusdam ipsa perferendis iusto?</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item p-4">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-umbrella fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">Life Insurance</h5>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam
+                            quasi quibusdam ipsa perferendis iusto?</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-building fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">City to City</h5>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam
+                            quasi quibusdam ipsa perferendis iusto?</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-car-alt fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">Free Rides</h5>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam
+                            quasi quibusdam ipsa perferendis iusto?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+    <!-- Car categories Start -->
+ 
+    <!-- Car categories End -->
+
+    <!-- Car Steps Start -->
+    <div class="container-fluid steps py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h1 class="display-5 text-capitalize text-white mb-3">How Does It<span class="text-primary"> Work</span>
+                </h1> 
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="steps-item p-4 mb-4">
+                        <h4>Quote a Request</h4>
+                        <p class="mb-0">Submit a quote request via the website form or customer service. Fill all information matches to your car details.</p>
+                        <div class="setps-number">01</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="steps-item p-4 mb-4">
+                        <h4>Review the Quote</h4>
+                        <p class="mb-0">We have one of the largest inventories of used engines in USA. You'll get a quote for your part request.</p>
+                        <div class="setps-number">02</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="steps-item p-4 mb-4">
+                        <h4>Order Shipment Online</h4>
+                        <p class="mb-0">Our Team updates you with the shipping time and tracking details and ensures delivery within 7-10 business days.</p>
+                        <div class="setps-number">03</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Car Steps End -->
+ 
+
+    <!-- Banner Start -->
+    
+    <!-- Banner End -->
+
+    <!-- Team Start -->
+     
+    <!-- Team End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial pb-5 pt-5">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h1 class="display-5 text-capitalize mb-3">Our Clients<span class="text-primary"> Reviews</span></h1>
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet nemo expedita
+                    asperiores commodi accusantium at cum harum, excepturi, quia tempora cupiditate! Adipisci facilis
+                    modi quisquam quia distinctio,
+                </p>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item">
+                    <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                    </div>
+                    <div class="testimonial-inner p-4">
+                        <!-- <img src="img/testimonial-1.jpg" class="img-fluid" alt=""> -->
+                        <div class="ms-4">
+                            <h4>Person Name</h4>
+                            <p>Profession</p>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star text-body"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-top rounded-bottom p-4">
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam soluta neque ab
+                            repudiandae reprehenderit ipsum eos cumque esse repellendus impedit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                    </div>
+                    <div class="testimonial-inner p-4">
+                        <!-- <img src="img/testimonial-2.jpg" class="img-fluid" alt=""> -->
+                        <div class="ms-4">
+                            <h4>Person Name</h4>
+                            <p>Profession</p>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star text-body"></i>
+                                <i class="fas fa-star text-body"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-top rounded-bottom p-4">
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam soluta neque ab
+                            repudiandae reprehenderit ipsum eos cumque esse repellendus impedit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                    </div>
+                    <div class="testimonial-inner p-4">
+                        <!-- <img src="img/testimonial-3.jpg" class="img-fluid" alt=""> -->
+                        <div class="ms-4">
+                            <h4>Person Name</h4>
+                            <p>Profession</p>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star text-body"></i>
+                                <i class="fas fa-star text-body"></i>
+                                <i class="fas fa-star text-body"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-top rounded-bottom p-4">
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam soluta neque ab
+                            repudiandae reprehenderit ipsum eos cumque esse repellendus impedit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">About Us</h4>
+                            <p class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="position-relative">
+                            <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="Enter your email">
+                            <button type="button"
+                                class="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Quick Links</h4>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> About</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Cars</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Car Types</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Team</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Business Hours</h4>
+                        <div class="mb-3">
+                            <h6 class="text-muted mb-0">Mon - Friday:</h6>
+                            <p class="text-white mb-0">09.00 am to 07.00 pm</p>
+                        </div>
+                        <div class="mb-3">
+                            <h6 class="text-muted mb-0">Saturday:</h6>
+                            <p class="text-white mb-0">10.00 am to 05.00 pm</p>
+                        </div>
+                        <div class="mb-3">
+                            <h6 class="text-muted mb-0">Vacation:</h6>
+                            <p class="text-white mb-0">All Sunday is our vacation</p>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Contact Info</h4>
+                        <a href="#"><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
+                        <a href="mailto:info@example.com"><i class="fas fa-envelope me-2"></i> info@example.com</a>
+                        <a href="tel:+012 345 67890"><i class="fas fa-phone me-2"></i> +012 345 67890</a>
+                        <a href="tel:+012 345 67890" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
+                        <div class="d-flex">
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
+                                    class="fab fa-facebook-f text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
+                                    class="fab fa-twitter text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
+                                    class="fab fa-instagram text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-0" href=""><i
+                                    class="fab fa-linkedin-in text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-body"><a href="#" class="border-bottom text-white"><i
+                                class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right
+                        reserved.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-body">
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                    Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>
+                    Distributed By <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
