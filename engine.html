@@ -47,6 +47,19 @@
             font-size: 16px;
             font-weight: bold;
         }
+        .centered-column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%; /* Ensure the column takes full height */
+        }
+        .centered-column img {
+            max-width: 100%; /* Ensure the image does not exceed the column width */
+            height: auto; /* Maintain the aspect ratio */
+            display: block; /* Prevent margin issues */
+            margin: 0 auto; /* Center the image horizontally */
+        }
     </style>
 </head>
 
@@ -280,34 +293,34 @@
 <div class="container">
     <div class="row">
         <div class="col-md-3 col-sm-6 col-6 brand-li">
-            <a href="#">
+            <div class="centered-column">
                 <img src="img/1.png" alt="Porsche">
                 <span>Porsche</span>
-            </a>
+            </div>
         </div>
         <div class="col-md-3 col-sm-6 col-6 brand-li">
-            <a href="#">
+            <div class="centered-column">
                 <img src="img/2.png" alt="Nissan">
                 <span>Nissan</span>
-            </a>
+            </div>
         </div>
         <div class="col-md-3 col-sm-6 col-6 brand-li">
-            <a href="#">
+            <div class="centered-column">
                 <img src="img/3.png" alt="Mitsubishi">
                 <span>Mitsubishi</span>
-            </a>
+            </div>
         </div>
         <div class="col-md-3 col-sm-6 col-6 brand-li">
-            <a href="#">
+            <div class="centered-column">
                 <img src="img/4.png" alt="Mini">
                 <span>Mini</span>
-            </a>
+            </div>
         </div>
         <div class="col-md-3 col-sm-6 col-6 brand-li">
-            <a href="#">
+            <div class="centered-column">
                 <img src="img/5.png" alt="Mercedes">
                 <span>Mercedes</span>
-            </a>
+            </div>
         </div>
     </div>
 </div>
